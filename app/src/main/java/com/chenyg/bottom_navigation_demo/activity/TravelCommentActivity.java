@@ -13,6 +13,9 @@ public class TravelCommentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_travel_comment);
 
+        //sssssssssssssssss
+        //111111111111111
+
 
     }
 }
