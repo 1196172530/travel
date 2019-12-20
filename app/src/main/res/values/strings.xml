@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">旅游宝</string>
+
+    <string name="title_travel_select">旅游精选</string>
+    <string name="title_voice_guide">语音导游</string>
+    <string name="title_time_share">时光分享</string>
+    <string name="title_intelligent_chat">智能陪聊</string>
+    <string name="title_personal_center">个人中心</string>
+
+</resources>

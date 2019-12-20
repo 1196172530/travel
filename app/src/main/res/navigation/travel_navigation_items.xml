@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/travel_navigation_items"
+    app:startDestination="@id/travelSelectFragment">
+
+    <fragment
+        android:id="@+id/travelSelectFragment"
+        android:name="com.chenyg.bottom_navigation_demo.TravelSelectFragment"
+        android:label="@string/title_travel_select"
+        tools:layout="@layout/travel_select_fragment" />
+    <fragment
+        android:id="@+id/voiceGuideFragment"
+        android:name="com.chenyg.bottom_navigation_demo.VoiceGuideFragment"
+        android:label="@string/title_voice_guide"
+        tools:layout="@layout/voice_guide_fragment" />
+    <fragment
+        android:id="@+id/timeShowFragment"
+        android:name="com.chenyg.bottom_navigation_demo.TimeShowFragment"
+        android:label="@string/title_time_share"
+        tools:layout="@layout/time_show_fragment" />
+    <fragment
+        android:id="@+id/intelligentChatFragment"
+        android:name="com.chenyg.bottom_navigation_demo.IntelligentChatFragment"
+        android:label="@string/title_intelligent_chat"
+        tools:layout="@layout/intelligent_chat_fragment" />
+    <fragment
+        android:id="@+id/presonalCenterFragment"
+        android:name="com.chenyg.bottom_navigation_demo.PresonalCenterFragment"
+        android:label="@string/title_personal_center"
+        tools:layout="@layout/presonal_center_fragment" />
+</navigation>

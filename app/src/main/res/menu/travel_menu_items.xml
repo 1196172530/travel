@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/travelSelectFragment"
+        android:icon="@drawable/ic_travel_select"
+        android:title="@string/title_travel_select" />
+
+    <item
+        android:id="@+id/voiceGuideFragment"
+        android:icon="@drawable/ic_voice_guide"
+        android:title="@string/title_voice_guide" />
+
+    <item
+        android:id="@+id/timeShowFragment"
+        android:icon="@drawable/ic_time_show"
+        android:title="@string/title_time_share" />
+
+    <item
+        android:id="@+id/intelligentChatFragment"
+        android:icon="@drawable/ic_intelligent_chat"
+        android:title="@string/title_intelligent_chat" />
+
+    <item
+        android:id="@+id/presonalCenterFragment"
+        android:icon="@drawable/ic_presonal_center"
+        android:title="@string/title_personal_center" />
+
+</menu>
